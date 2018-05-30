@@ -11,7 +11,7 @@ import 'unit.dart';
 class Category {    //extends StatelessWidget
   final String name;
   final ColorSwatch color;
-  final IconData iconLocation;
+  final String iconLocation;
   final List<Unit> units;
 
   const Category({
